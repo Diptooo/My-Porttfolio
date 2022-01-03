@@ -2,24 +2,28 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0%;
 }
-h1{
+.font-size1{
     font-size: 50px;
+}
+
+.font-size2{
+    font-size: 40px;
 }
 
 .orange-color{
     color: orange;
 }
-section{
+.yooo{
     display: flex;
     margin-bottom: 120px;
 }
 .half-width{
     width: 50%;
-    padding-left: 7%;
-    padding-right: 7%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 .half-width img{
-    width: 110%;
+    width: 100%;
 }
 .hire-me-button{
     text-decoration: none;
@@ -40,4 +44,12 @@ section{
     background-repeat: no-repeat;
     background-position: right;
 
+}
+.exp{
+    display: flex;
+    margin-bottom: 300px;
+}
+
+p{
+    color: gray;
 }
