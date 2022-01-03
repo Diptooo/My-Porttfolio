@@ -22,12 +22,20 @@ body{
     padding-left: 5%;
     padding-right: 5%;
 }
+
+.half-width1{
+    width: 50%;
+    padding: 2%;
+    margin: 2%;
+}
+
+
 .half-width img{
     width: 100%;
 }
 .hire-me-button{
     text-decoration: none;
-    background-image: linear-gradient(rgb(252, 120, 97),rgb(255, 60, 25));
+    background-image: linear-gradient(rgb(247, 142, 124),rgb(247, 87, 59));
     
     padding: 10px 40px;
     border-radius: 5px;
@@ -46,10 +54,55 @@ body{
 
 }
 .exp{
+    
     display: flex;
     margin-bottom: 300px;
+    padding-top: 0;
+    
+    
+
+    
+}
+.exp1{
+    box-shadow: gray 10px 10px 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 0;
+    border-left:  solid 8px;
+    border-radius: 10px;
+    
+    
+    
+    
 }
 
 p{
     color: gray;
+    
+}
+.div1{
+    margin-left: 70px;
+  
+}
+.div2{
+    margin-right: 70px;
+    
+}
+.background-image3{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position-y: 75%;
+}
+.border1{
+    border-image: linear-gradient(rgb(247, 142, 124),rgb(247, 87, 59)) 50;
+}
+.border2{
+    border-image: linear-gradient(blue, cyan) 50;
+}
+footer{
+    text-align: center;
+}
+
+.exp0{
+    text-align: center;
 }
